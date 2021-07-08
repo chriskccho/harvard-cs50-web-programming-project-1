@@ -1,6 +1,7 @@
 body {
     margin: 0;
     background-color: white;
+    overflow: hidden;
 }
 
 code {
@@ -13,8 +14,9 @@ h1 {
 }
 
 textarea {
-    height: 90vh;
     width: 80%;
+    margin-bottom: 20px;
+    height: 300px;
 }
 
 .main {
@@ -35,4 +37,30 @@ textarea {
 
 .sidebar h2 {
     margin-top: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#new {
+    width: 80%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.btn {
+    width: 80%;
+}
+
+#message {
+    background-color: lightcoral;
+    margin-top: 20px;
+    border-radius: 2px;
+    width: 80%;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
